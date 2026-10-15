@@ -1,0 +1,1307 @@
+[
+  {
+    "text": "User KYC Aadhaar identification document number: 304332181964",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 201338908389",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 837940265421",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 551161559403",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 981618495938",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 303413164757",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 455341928322",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 964835030560",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 613953767242",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 438849696534",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 487101226918",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 869784801842",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 714627048282",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 348932528801",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "User KYC Aadhaar identification document number: 770154303911",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: ZRCCT3060E submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: TFJLS7932G submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: ZYGJY6107N submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: QSQTD5061H submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: LAUCT4770U submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: ACYFW1964H submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: BLCCS4899J submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: GTELZ8744H submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: PGDLD8062M submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: PQZBB2612B submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: ZLDBH4139G submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: QEPJF5563Q submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: CQTFD1828W submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: ACHJF7658R submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Customer tax filing PAN card reference: GNBLF7209A submitted to IT Dept",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91 9474687234",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: 6980500978",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91 7081219136",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91-7990916998",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91 8353462475",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91 6799118384",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: 8135427849",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91-6841241182",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91 8935348740",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: 9400524278",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: 9801128059",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: 7620450533",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91 6586923226",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91 7563421607",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact mobile phone number: +91-7754330365",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is shankerraghav@example.org",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is sarabehl@example.net",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is bbabu@example.org",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is dishaniramachandran@example.org",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is cchoudhary@example.net",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is blakeerik@example.com",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is eric51@example.org",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is howardmaurice@example.com",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is hloyal@example.com",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is mishti95@example.net",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is bajajnitara@example.org",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is wyattmichelle@example.com",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is xreid@example.org",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is jason41@example.net",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Primary employee notification email address is ishaankashyap@example.com",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4145868501429409 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4196556981693408 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4608835615951487 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4465648236629941 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4680443699577731 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4872148951343320 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4003791769367635 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4201632870831723 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4788957986872779 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4434873471434553 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4812236231665878 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4603669096705467 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4688937346706561 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4272980699016271 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "Payment billing card account: 4204653755646413 cvv: 912",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIA4B8DWOECBPMBJPI4",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIAHN3QXKHKTGBTYZME",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIAPGTHCW81XE6VA05G",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIA1X3J1L7R8431RUPF",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIAR2P3YVB5UL5NWQVR",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIAR9A7MFP059P452BF",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIASOZPTX497W19VW3R",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIATQOHMUH8LMN4R7SG",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIAMSOXLTA8IRCD9SI5",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIAGAS442VLDQ4HEZ5E",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIADJJTFPH90O7Y22T1",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIATDGNNQFKPL9EKA02",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIA4SCOSS3EOQM1H8OJ",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIARJEDKTS2H3TZR685",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "AWS cloud credentials key id: AKIA2FC1UQBFOBRCL472",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_6RLlbo0f_FeWaVUqG2KVasfSq8Z0wjCdFUQU for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_H_xZ3g0Aq3idaDMhXnwfocwDNRjI7Sc4sfHB for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp__omzPtKTjAjaFO16Hd8Hp1Jf7tSgtRa1e_eP for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_djJYM6mgv4I3ERxy2aV7ygR0ASuT1llqf3Jc for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_ieWVjwiYd7U3M_sPkYO2xaCUvet6zYYqy0p_ for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_Jf9CIg9lV3G32cGh6dAuJa3p_JEey_QVnsZp for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_F2V2r2iY9Uot4wf3iCnEPor6SOvFb_Gwot3G for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_cKsT5BCUyDSWXbJPhakryLKLFn3YnrPf6lJO for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_doQdQqA5zd5SriKEc8WlTo9bsQd2TMY2eGPY for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_kWkSsSB_1qZRAk3rxv_D6mvf155SxzOmzWOo for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_MnQrwuxqr1IoG5opCTycClXuIF6SUvaLMIyi for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_4_Xhg6R1KQ608e9zSv3VzHd9EJw9O3rur_Z9 for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_2zjXFyZAQiHdXrvrQlY0o8XGrOeBn48jU6nO for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_pEo0d6sTpaHIC8CTfHGP4iIYdXq8vs8ialvu for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "CI automation token: ghp_J4apG1fna88RCsXNcc8P2XG_rXi5_pWDZRM9 for repo access",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.ieCizFtzQmy9lg6zbUAT0ongosxbc0JsvZYOs21AE9I session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.5sC0EUodQ-uobQu-CIQnZebAtBFKHUPrqG0LvgiEJ2U session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.5AypRVSXTC-JAENhzNbLe-QMqUVUl0wviQBDYczWy3s session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.aEU4aKKERqu_89ZnyvY01WhFOGiihEarv_PWZ8r2NNU session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.MPQHOFtWRIWYrW3UbI1OTzD0BzhbVkSFmK1t1GyNTk8 session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.fqSre24zTvOiuPPg__7jqH6kq3tuM07zorjz4P_-46g session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.ka__YBObRtCrJlcBUuHyfpGv_2ATm0bQqyZXAVLh8n4 session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.r0WJoi6mQgCtb4jCNdhT769FiaIupkIArW-IwjXYU-8 session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.KrURFOiTSoCDn4NmoBRVGCq1ERTok0qAg5-DZqAUVRg session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.BnqJF2cXSJirUtVYXEQ8ewZ6iRdnF0iYq1LVWFxEPHs session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.iUlLZO00Qwu5h5_LhAOx-IlJS2TtNEMLuYefy4QDsfg session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.MKnj6eP-TaW89vPPGc_PnjCp4-nj_k2lvPbzzxnPz54 session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.9nqqJLvgSKGXcTLPXAhp2PZ6qiS74Eihl3Eyz1wIadg session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.Ltw4ZSDtQBqljyMN0QYTzS7cOGUg7UAapY8jDdEGE80 session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMTIzIiwicm9sZSI6ImFuYWx5c3QifQ.BNkqC5AJRGOgfzIFwSznmwTZKguQCURjoH8yBcEs55s session active",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://gabriellecameron:p6lBcgQFqAiABDQs@tara.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://carl95:aJsqGwodqbTEPcwH@krish.info:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://hiran38:gq1oi85Un5$CfM6d@richards.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://wbath:h9Z2n!4jkPsiqJPW@bose.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://cruzcaitlin:L6$3moB35D0R6Z1m@king.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://daniel62:O2OGVt8ilkl3mVqh@mckay.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://virkmishti:Qp0T2gKNTn$Bt9Cn@romero.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://ayesha01:SVoJC2dIdxINRSax@allen-allen.org:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://settyaradhya:sZisdlBW16RuVNPk@sinha.info:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://eva96:gtugkI42!41IBoS3@shroff.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://pcarney:oK!NfCYhaAMBrGLP@lam-hayes.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://garaakarsh:pa#3wqWD$TjYf3c6@choudhary.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://zachariaharhaan:jO2Z1LoZcPv6Ul3n@palmer.info:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://samairawadhwa:F3ZkYNRCQvjoySSs@mueller.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "Production database connection dsn: postgres://sahniadah:EnsGzwtjw#75POt4@jenkins-shields.com:5432/appdb",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "SSL certificate TLS bundle:\n-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0syntheticKey\n-----END RSA PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"aeC6apPFRm2et64EUCVCUWnV95Jh2EHfqHJ1T43Ae2M=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"wFpS8C04Q7i83Ps8f0XVQnrg4WWC9EqCuCR1oCrXX9s=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"2pws4Of8R269fLvRKjZdBYe97Mmlo0wtgJY9nvvuR2c=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"KWV7nyXiT4aRZJ2rBs35fphDlfFzFk5Dvdq0JGXVqrk=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"iZ7U2Hq6TVu7BLs/cK/xlpaEmOKYBkZRt1IOgq/kmlk=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"UB6DHlIpRIuJ6syx4fe+tUd9A66Rt0OzvJZLhZFEDZA=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"rUY0gMk+RHG+vAKLURwnNL3ou5MYy0VvqFL2saki0a8=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"kUOml3orQKOsarFwTE1LgZ8uRToMyk4uhjovGEI9ZEE=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"sAypNKBgR+2sOZYRX5wxcDmoavKRIEUqo0uBpEcDKok=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"/wuhKVaZTkqdWHNWSQ9cQGLQzwrqH0GRmWYgdf8L7sA=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"1bjQ63EXRGSPPUNlKHCudyIWHyB0DUKwvU0MJO1vIPs=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"7O+TNTd8RViWTh4kH/h3PhOju5CR2EyiphSYiiNm5AU=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"Qu1WeCnOSoC6B3jyZhww9Bjienvh10QOizQ0jekFNEI=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"GxSEhD72ROimbPsG2v2cjmYFYAoewEnavQ3NrGHl3Lg=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "api_key: \"mp0DbseFTxCo4IBSIOkDhZCTLep5yEsci9TY60sqxes=\"",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "Tracking package shipment barcode ID #377449058148",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #900541199860",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #279359782076",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #718203778897",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #754665905153",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #844925192544",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #491486528161",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #705423573321",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #341888059299",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #422927065374",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #938347359771",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #888623924070",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #381412478260",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #575060685366",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Tracking package shipment barcode ID #730515220476",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Transaction GUID 09ad7712-1e22-49cf-b2d3-f7c3b48d45c3 processed order ORD-72962895",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 54cfeef7-f1da-420a-a19c-cb274f39c21e processed order ORD-70210270",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 69d4846a-5834-4f23-8e32-88e41830c3d0 processed order ORD-92590645",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID b2005220-43a1-47f8-87aa-be92246b1102 processed order ORD-10704803",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 44428d2f-485b-4f8a-bc4e-86e636e9f511 processed order ORD-20633503",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 1c58113b-43b9-4709-9bd0-1826d113084b processed order ORD-12550658",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 0275fcd6-dc91-4898-9499-06b7edbc4046 processed order ORD-44349528",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID a0729fe2-fc85-422d-bd83-201da7ed7001 processed order ORD-38944689",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID e56f5f71-c377-4704-9174-634496e2231d processed order ORD-30068183",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 25462077-10a4-4c29-a02c-8b4c4330ce3f processed order ORD-83659258",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 36feea57-6e69-4062-9aed-d55219692690 processed order ORD-91722503",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID a715ea22-b4fa-45e6-a781-91f732f7ee30 processed order ORD-80836292",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID c2e81a93-e122-44b7-965b-a883379a75de processed order ORD-66808292",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID 6af9bc33-ebfc-4da2-aa8f-3e97894dac42 processed order ORD-24923247",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Transaction GUID f20404d8-5628-446b-b48d-61d2a0db784b processed order ORD-48668339",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuid_and_order_id"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstNDg5My1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstNTkzNC1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstMjk5Ni1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstMTc4Mi1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstNDkwNi1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstNzg3OC1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstODQ4OS1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstMjAyOS1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstMjgxNi1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstOTE4OS1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstOTc4Mi1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstMTI2OS1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstOTQ0My1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstNDk2My1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Base64 image asset thumbnail payload: data:image/png;base64,Y2h1bmstMzM1Mi1kYXRh== end",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "generic_base64"
+  },
+  {
+    "text": "Template config example: aws_key: AKIAIOSFODNN7EXAMPLE",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "allowlisted_placeholder"
+  },
+  {
+    "text": "Template config example: github_pat: ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "allowlisted_placeholder"
+  },
+  {
+    "text": "Template config example: test email: test@example.com",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "allowlisted_placeholder"
+  },
+  {
+    "text": "Template config example: dummy aadhaar: 123456789012",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "allowlisted_placeholder"
+  },
+  {
+    "text": "Template config example: db_url: postgres://user:password@localhost:5432/db",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "allowlisted_placeholder"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Illo excepturi similique dolorum deleniti ipsum in eius. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Ipsam similique mollitia amet voluptatum saepe voluptas unde. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Illo laboriosam sint temporibus cum a hic unde quos. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Recent room situation product main couple design around save article finish anyone live. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Vero aspernatur delectus nisi perferendis doloremque blanditiis tempora. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Nisi nulla in nesciunt minima vel dignissimos quaerat dolores id perferendis error et quibusdam asperiores itaque. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Modi magni consequatur expedita architecto doloribus eligendi ipsa. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Worker southern more property never use billion there enough threat score choice example decision garden reach. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Major town suffer begin interest everybody about side PM energy scientist necessary into act. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Molestias rerum nesciunt corporis consectetur est tempore recusandae similique. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Radio project government nice themselves wind see understand door class. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Ad qui ex ut rem sint repellat eaque ratione autem sit similique dolore. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Figure somebody dinner age cover foreign ten whom evidence political hundred wonder. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Boy wife condition while enter board its. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Paper memory history office effort remember ability understand Mrs rest score provide hair. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Numquam optio commodi tempore magni pariatur eveniet possimus mollitia deleniti pariatur fugit. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Necessitatibus illo rerum esse distinctio ratione non eum ipsam perferendis maiores recusandae vero quasi omnis eligendi. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Stand seem pull different current agency each little. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Impedit occaecati deserunt possimus laudantium doloribus omnis ab quibusdam quo autem incidunt debitis vero. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Newspaper true building card let most next. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Partner rest measure store natural today season listen else easy point she miss. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Ipsam quae doloremque excepturi tempora aspernatur corrupti fugit corrupti distinctio impedit. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Letter artist strategy hope show watch affect thing offer local wall fear hope through structure. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Dolor ipsa adipisci excepturi perspiciatis illo cumque iusto consectetur numquam ad hic natus ad. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Term consider employee force lawyer front they everything week. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Strong like see appear weight difference attention whatever American all easy. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Corrupti commodi pariatur natus dolor praesentium quisquam cumque non quibusdam beatae reprehenderit vitae autem ad est. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Walk cup option store drug recent feeling range south someone not American mouth. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Media game support state black whether player stock. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  },
+  {
+    "text": "INFO 2026-10-15 10:14:22 [system.worker] Debitis maxime officiis nulla ullam quo iure repudiandae nihil eum doloribus vel eius. status=OK latency=42ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "normal_log_line"
+  }
+]

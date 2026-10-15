@@ -1,0 +1,115 @@
+name: Hardened CI/CD & Supply Chain Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+# Principle of least privilege: default read-only permissions
+permissions:
+  contents: read
+
+jobs:
+  lint-and-sast:
+    name: Code Quality & Static Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - name: Set up Python
+        uses: actions/setup-python@0a5c61591373683505ea898e09a6ea86e8b16631 # v5.0.0
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Linting & Security Tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff==0.3.4 bandit==1.7.8
+
+      - name: Ruff Linter
+        run: ruff check .
+
+      - name: Bandit SAST Scan
+        run: bandit -r vaultsight/ -ll -ii
+
+  test-and-evaluate:
+    name: Unit & Security Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - name: Set up Python
+        uses: actions/setup-python@0a5c61591373683505ea898e09a6ea86e8b16631 # v5.0.0
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Test Suite (pytest)
+        run: pytest -v
+
+      - name: VaultSight Self-Scan for Secrets
+        run: |
+          python -c "
+          from vaultsight.detectors.engine import DetectionEngine
+          from vaultsight.connectors import LocalFilesystemConnector
+          engine = DetectionEngine()
+          connector = LocalFilesystemConnector('.')
+          findings = []
+          for path, content in connector.read_files():
+              if 'data/' in path or 'test' in path or 'infra/' in path:
+                  continue
+              f = engine.scan_text(content, location=path)
+              findings.extend(f)
+          if findings:
+              print(f'Secrets detected in source: {len(findings)}')
+              for item in findings:
+                  print(f'{item.detector} at {item.location}')
+              exit(1)
+          print('VaultSight self-scan passed cleanly! No leaks.')
+          "
+
+  sca-audit:
+    name: Software Composition Analysis (SCA)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - name: Set up Python
+        uses: actions/setup-python@0a5c61591373683505ea898e09a6ea86e8b16631 # v5.0.0
+        with:
+          python-version: "3.11"
+
+      - name: Install pip-audit
+        run: pip install pip-audit==2.7.2
+
+      - name: Dependency Vulnerability Audit
+        run: pip-audit -r requirements.txt
+
+  container-security:
+    name: Container Image Scan (Trivy)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - name: Build Local Container Image
+        run: docker build -t vaultsight:ci-test .
+
+      - name: Trivy Vulnerability Scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'vaultsight:ci-test'
+          format: 'table'
+          exit-code: '0'
+          ignore-unfixed: true
+          severity: 'CRITICAL,HIGH'

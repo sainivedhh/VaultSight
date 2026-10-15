@@ -1,0 +1,210 @@
+version: "1.0"
+rules:
+  - id: aadhaar
+    name: Indian Aadhaar Number
+    category: PII
+    pattern: '\b[2-9]\d{3}\s?\d{4}\s?\d{4}\b'
+    checksum: verhoeff
+    context_keywords:
+      - aadhaar
+      - aadhar
+      - uid
+      - uidai
+      - indian id
+      - identity
+    base_confidence: 0.65
+    checksum_boost: 0.25
+    context_boost: 0.10
+    allowlist:
+      - "123456789012"
+      - "999999999999"
+      - "000000000000"
+
+  - id: pan
+    name: Indian Permanent Account Number (PAN)
+    category: FINANCIAL
+    # 5 uppercase letters (4th is status e.g. P, C, H, F, A, T, B, L, J, G), 4 digits, 1 letter
+    pattern: '\b[A-Z]{3}[ABCFGHLJPT][A-Z]\d{4}[A-Z]\b'
+    context_keywords:
+      - pan
+      - income tax
+      - nsdl
+      - utiitsl
+      - pan card
+      - tax id
+    base_confidence: 0.85
+    context_boost: 0.15
+    allowlist:
+      - "ABCDE1234F"
+      - "AAAAA0000A"
+      - "XXXXX0000X"
+
+  - id: indian_mobile
+    name: Indian Mobile Number
+    category: PII
+    # Indian mobiles start with 6, 7, 8, or 9 and have optional +91 or 0 prefix
+    pattern: '(?:(?:\+91|91|0)?[-\s]?)?[6-9]\d{4}[-\s]?\d{5}\b'
+    context_keywords:
+      - phone
+      - mobile
+      - cell
+      - contact
+      - tel
+      - call
+      - whatsapp
+      - otp
+      - sms
+    base_confidence: 0.40
+    context_boost: 0.50
+    allowlist:
+      - "9876543210"
+      - "9999999999"
+      - "9800000000"
+
+  - id: email
+    name: Email Address
+    category: PII
+    pattern: '\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+    context_keywords:
+      - email
+      - mail
+      - contact
+      - user
+      - recipient
+    base_confidence: 0.90
+    context_boost: 0.10
+    allowlist:
+      - "example@example.com"
+      - "test@example.com"
+      - "user@domain.com"
+      - "noreply@company.com"
+
+  - id: credit_card
+    name: Credit Card Number
+    category: FINANCIAL
+    # Visa, MC, Amex, Discover, RuPay (13-19 digits, optional dashes/spaces)
+    pattern: '\b(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|(?:508[5-9][0-9]{12}|6069[8-9][0-9]{11}|6521[5-8][0-9]{11}|6530[0-9]{12}|6531[0-4][0-9]{11}))\b'
+    checksum: luhn
+    context_keywords:
+      - card
+      - credit
+      - debit
+      - visa
+      - mastercard
+      - amex
+      - cvv
+      - expiry
+      - payment
+      - billing
+    base_confidence: 0.70
+    checksum_boost: 0.20
+    context_boost: 0.10
+    allowlist:
+      - "4000000000000000"
+      - "4111111111111111"
+
+  - id: aws_access_key
+    name: AWS Access Key ID
+    category: CREDENTIAL
+    # AKIA (standard user), ASIA (temporary STS key)
+    pattern: '\b(AKIA|ASIA)[0-9A-Z]{16}\b'
+    context_keywords:
+      - aws
+      - secret
+      - access_key
+      - amazon
+      - s3
+      - iam
+      - credential
+    base_confidence: 0.95
+    context_boost: 0.05
+    allowlist:
+      - "AKIAIOSFODNN7EXAMPLE"
+      - "AKIAEXAMPLEKEY12345"
+
+  - id: github_token
+    name: GitHub Personal Access Token
+    category: CREDENTIAL
+    # gh_p, ghp_, gho_, ghu_, ghs_, ghr_ followed by 36-40 alphanumeric/underscore
+    pattern: '\b(ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9_]{36,40}\b'
+    context_keywords:
+      - github
+      - token
+      - git
+      - pat
+      - api_key
+      - oauth
+    base_confidence: 0.95
+    context_boost: 0.05
+    allowlist:
+      - "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      - "ghp_000000000000000000000000000000000000"
+
+  - id: private_key
+    name: Private Key Header
+    category: CREDENTIAL
+    pattern: '-----BEGIN (?:RSA |EC |DSA |OPENSSH )?PRIVATE KEY-----'
+    context_keywords:
+      - private key
+      - certificate
+      - pem
+      - ssh
+      - tls
+      - ssl
+    base_confidence: 0.99
+    context_boost: 0.01
+
+  - id: jwt
+    name: JSON Web Token
+    category: CREDENTIAL
+    # eyJ prefix base64 encoded JSON header, followed by payload and signature
+    pattern: '\beyJ[a-zA-Z0-9_-]{10,}\.eyJ[a-zA-Z0-9_-]{10,}\.[a-zA-Z0-9_-]{10,}\b'
+    context_keywords:
+      - jwt
+      - bearer
+      - authorization
+      - token
+      - auth
+    base_confidence: 0.90
+    context_boost: 0.10
+
+  - id: db_connection_string
+    name: Database Connection String with Credentials
+    category: CREDENTIAL
+    # (postgres|mysql|mongodb|redis|sqlserver)://user:password@host
+    pattern: '\b(?:postgres(?:ql)?|mysql|mongodb(?:\+srv)?|redis|mssql|oracle|snowflake)://[a-zA-Z0-9_.-]+:(?:(?!\s)[^\s@:]+)@[a-zA-Z0-9_.-]+(?::[0-9]+)?(?:/[a-zA-Z0-9_.-]*)?'
+    context_keywords:
+      - database
+      - db
+      - uri
+      - url
+      - dsn
+      - connection
+      - sql
+    base_confidence: 0.92
+    context_boost: 0.08
+    allowlist:
+      - "postgres://user:password@localhost:5432/db"
+      - "mysql://root:password@localhost/test"
+
+  - id: generic_high_entropy_secret
+    name: Generic High-Entropy Secret
+    category: CREDENTIAL
+    # Looks for password/token/secret assignment followed by high-entropy string
+    pattern: '(?i)(?:secret|token|api_?key|password|client_?secret|auth_?key)\s*[:=]\s*["\x27]?([A-Za-z0-9+/=_\-]{20,80})["\x27]?'
+    capture_group: 1
+    entropy:
+      min_entropy: 3.5
+      min_length: 20
+    context_keywords:
+      - secret
+      - token
+      - password
+      - apikey
+      - auth
+    base_confidence: 0.70
+    context_boost: 0.25
+    allowlist:
+      - "your_secret_here"
+      - "changeme1234567890"
+      - "placeholder_secret_key"
