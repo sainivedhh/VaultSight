@@ -1,0 +1,2162 @@
+[
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (9737, '7992 5654 6354', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (7971, '8185-6640-5919', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (5036, '4597  9438  1897', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (1718, '3690  0331  4373', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (6149, '2956  9380  8430', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (3962, '4079  7087  8587', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (5215, '6120 2513 7845', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (3456, '8590 6420 7563', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (4414, '7943-3276-9682', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (3616, '5569 3962 7958', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (1495, '5648-5653-4791', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "INSERT INTO kyc_data (cust_id, uid_num, dob) VALUES (7229, '4943-6170-5141', '1990-04-12');",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"820896371341\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"273585491284\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"287402271975\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"902323307763\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"650651210437\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"431128699300\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"836587731114\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"454960030883\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"364884206471\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "{\"type\": \"kyc_verification\", \"payload\": {\"AADHAAR_NUMBER\": \"705090105694\", \"verified\": true}}",
+    "expected_detector": "aadhaar",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: NRFLA9138X for application_id=REQ-34085",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: CPGAC9568F for application_id=REQ-64773",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: VCHAS4048P for application_id=REQ-12670",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: STKLD6265K for application_id=REQ-16776",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: MLAFM6416Y for application_id=REQ-38322",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: TAYCB7589Y for application_id=REQ-79287",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: BNALW1669X for application_id=REQ-90558",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: ZQCLL9579V for application_id=REQ-68731",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: SGCJQ6950Z for application_id=REQ-58730",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: EEDPH7696F for application_id=REQ-27803",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: XJNAR6551C for application_id=REQ-58938",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "[2026-10-15 10:22:11] [INFO] Validated PAN_Card: GFVGR5402T for application_id=REQ-21242",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Monique Rowe\n  pan: \"RJETZ2778G\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Richard Dorsey\n  pan: \"YYFHE1716X\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Michael Juarez\n  pan: \"BHMPD6077G\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Robert Ross\n  pan: \"ZSPCV9603U\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Yuvaan Jaggi\n  pan: \"ZNCLG4031Y\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Sandra Wheeler\n  pan: \"YGYBS1930Z\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Christopher Christian\n  pan: \"DKTAL5691L\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Regina Kelley\n  pan: \"BJPTL6575Y\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Yuvraj  Sachdeva\n  pan: \"WTUCJ9781J\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "applicant:\n  name: Myra Chaudhari\n  pan: \"LBEPP9141R\"\n  status: approved\n",
+    "expected_detector": "pan",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+918281721635\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+919655548887\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+916572407761\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+916727561324\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+917845924514\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+919891183443\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+918323030819\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+919826124643\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+919704148769\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+919868744534\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+917520342619\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "# Notification settings\nALERT_PHONE=+919901169128\nALERT_EMAIL=ops@internal.example.com\n",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 9291697349 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 6380856349 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 8238790018 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 8790664049 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 8864751416 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 8213811390 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 6768281989 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 7240395122 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 8828492413 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "Emergency contact phone number: 9238533158 (primary)",
+    "expected_detector": "indian_mobile",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=dharkiaan@example.com ip=172.16.0.131 session=8e77eba2-719c-4450-be23-2f82dad16306",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=popecheryl@example.com ip=172.16.0.32 session=541d87e5-da78-49d4-a476-7a17255545cf",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=soniivana@example.net ip=172.16.0.168 session=22df7a29-0cbb-424b-a6ac-2e75369ac37b",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=cherylwhite@example.net ip=172.16.0.40 session=90d743bf-ca12-471e-93f7-8e5e1662771c",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=shenoybhamini@example.net ip=172.16.0.130 session=df1b49e6-4eff-4839-9927-40440e124b3e",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=ballardtony@example.net ip=172.16.0.100 session=e696481a-ed4a-43c3-857b-b372b7f71df6",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=jose20@example.org ip=172.16.0.179 session=1b6b0721-6c10-4d1f-a547-2fa3d5798d66",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=leestephanie@example.com ip=172.16.0.249 session=548fe75f-1164-4724-93c9-0b3cfd0a866f",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=aaryahighosh@example.net ip=172.16.0.239 session=99b7bbd8-8f59-4e43-9bad-ca2e6186eb0c",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=vdhawan@example.org ip=172.16.0.89 session=7041fba9-ac40-4abf-a9ce-95d653c566f7",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=yghose@example.org ip=172.16.0.172 session=e85ddc69-ffad-4ce2-a811-56e533078ca5",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "2026-10-15T08:30:12Z [auth] Successful login email=nirvi94@example.net ip=172.16.0.112 session=147a8f1a-d218-4eec-828b-79de211f243f",
+    "expected_detector": "email",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4804166987010930\"\n  expiry: \"09/28\"\n  cvv: \"337\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4100909890952958\"\n  expiry: \"09/28\"\n  cvv: \"404\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4945 4965 2089 6168\"\n  expiry: \"09/28\"\n  cvv: \"508\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4371308264995473\"\n  expiry: \"09/28\"\n  cvv: \"171\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4084570493876158\"\n  expiry: \"09/28\"\n  cvv: \"884\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4038 9497 4728 0572\"\n  expiry: \"09/28\"\n  cvv: \"711\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4890 3782 7449 2789\"\n  expiry: \"09/28\"\n  cvv: \"966\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4687 9886 6025 1966\"\n  expiry: \"09/28\"\n  cvv: \"208\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4833-5427-3517-4100\"\n  expiry: \"09/28\"\n  cvv: \"214\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4333 8696 1002 3903\"\n  expiry: \"09/28\"\n  cvv: \"675\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4789 0318 5825 8845\"\n  expiry: \"09/28\"\n  cvv: \"653\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "payment:\n  card_number: \"4741741003441230\"\n  expiry: \"09/28\"\n  cvv: \"849\"\n",
+    "expected_detector": "credit_card",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBS0lBRzdJWFJFS1I3MFExQjFNUiIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"AKIAG7IXREKR70Q1B1MR\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBVFFZSDk3UUxVNjdWNTNJMSIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIATQYH97QLU67V53I1\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBMkk2U1hEVTVFUjlKVFRLUiIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIA2I6SXDU5ER9JTTKR\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBOUxWUFdVOEFYMk83VjQwTyIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIA9LVPWU8AX2O7V40O\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBS0lBT1dRTkpUOTRaRFFTVUJLNyIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"AKIAOWQNJT94ZDQSUBK7\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBSFVESkY2TjVNOVgwS09OUCIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIAHUDJF6N5M9X0KONP\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBS0lBOFdMNVZIVEhTWkMzUjQwVSIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"AKIA8WL5VHTHSZC3R40U\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBT0k0VDE3QjJWMFlXNEU1USIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIAOI4T17B2V0YW4E5Q\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBS0lBNFY2V0RPMjBHN0dGSE40WiIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"AKIA4V6WDO20G7GFHN4Z\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBVVBVUzlGVTRPQkFJR1dNUiIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIAUPUS9FU4OBAIGWMR\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBUTZaOEo5TFFBTzE4VEJGNSIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIAQ6Z8J9LQAO18TBF5\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "apiVersion: v1\nkind: Secret\nmetadata:\n  name: aws-creds\ndata:\n  config.json: eyJBV1NfQUNDRVNTX0tFWV9JRCI6ICJBU0lBUFc5OTBWTzlVTUVMT1U4SCIsICJBV1NfUkVHSU9OIjogInVzLWVhc3QtMSJ9\n# decoded contains the key\n# {\"AWS_ACCESS_KEY_ID\": \"ASIAPW990VO9UMELOU8H\", \"AWS_REGION\": \"us-east-1\"}",
+    "expected_detector": "aws_access_key",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghp_9a_q8FIKU4CMPav3Ny6wrrYHPjO97OnUvXTP\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghs_UzF3C1E9atcFo_oBgxHoj3xXuKocjdatRAqA\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"gho_0UOV0tm4wBeIOwQF2JT213JbQafWB53F3y65\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"gho_yOAPYCOsKtQ0j5Kr7PRzfNiD4xRUet87q427\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghs_BnmZcwUtGQz6SpEESu1cR1o9RoCY4N3hMMq1\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghp_s_HPoi6QQ7QVL3syty1Mcj6f03IFJGGbdD7i\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghs_EzXgA65bDYlDY6OpbUphQyiQUMdCLu4gwlJU\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghs_nOC_EiuHlCLv5Iz3YzVjWg7HmOrc8wb7bvm2\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghu_YLP36rVm6JXRyNTMVIpvUpi7dbxEg97wPNpj\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghu_LZRNy3XO79IaNaxwEbNt0coKdD2ABnmc7xRp\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghs_6I258RPL0l_VIthq2ulUvSqmuSfmzwyXWQBm\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "- name: Deploy\n  env:\n    GITHUB_TOKEN: \"ghu_9rn6WgR1fnntInNYJIjE5pPG2PUz5kVbkW_K\"\n  run: |\n    gh release upload $TAG ./dist/*.tar.gz\n",
+    "expected_detector": "github_token",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NDUxZmFkZC03YmViLTQ3NzQtYTJkOS05Mjc3MzEwNzkxYmIiLCJpYXQiOjE3MDAwMDAwMDB9.pnPeu6dhTyOC_se3QfWB6KZz3runYU8jgv7Ht0H1geg' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOGIwOGEwNS0yOGUzLTQzMzMtODBiYy0wODg0OGQ4NWIzMTUiLCJpYXQiOjE3MDAwMDAwMDB9.SOhSFSxrR1ixQ1A1nNcVp0joUhUsa0dYsUNQNZzXFac' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjZDRlNTFjZC0zMWNjLTRjYmQtOWZkNi03ODkzNjQ5ODY2ZTAiLCJpYXQiOjE3MDAwMDAwMDB9.nlUxu3TuReCI9ilkaYz_xJ5VMbt07kXgiPYpZGmM_8Q' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3ODFlMjcxZS1iN2M4LTRmMzUtYThiYS00ZGIyZWYzMjBmOWUiLCJpYXQiOjE3MDAwMDAwMDB9.wsXFUA6ZTu2GkJrADRyq98LFxVAOmU7thpCawA0cqvc' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5OTk2MTM5My04YTNiLTQxOWYtODdiZC05NDgzMGExNDY4MGQiLCJpYXQiOjE3MDAwMDAwMDB9.EFkrS9jDTD-yeYO8YFD_khBZK0vYw0w_snmDvGBQ_5I' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjMzYzYmUyOS00ZTkzLTRmN2ItYWZmZS1kYzk2YTQyY2EzZTYiLCJpYXQiOjE3MDAwMDAwMDB9.mp18PJgMToOrFEmfJxEk8JqdfDyYDE6DqxRJnycRJPA' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1YmQzNjI3Mi1kZmJlLTRiNjItYTcwMy03MGU4YzdlMjlhMGEiLCJpYXQiOjE3MDAwMDAwMDB9.Skx1bOW7SOSWexYUDnpTaUpMdWzlu0jklnsWFA56U2k' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MGE4MjExYi1lNDUxLTRmMGMtOGUyNi1iMGI4ZWFkMTNjNDEiLCJpYXQiOjE3MDAwMDAwMDB9.lQfRHBMWQX6nVtT_pA9_c5UH0RwTFkF-p1bU_6QPf3M' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNGUxYmEyZC02MTU1LTRjODUtYTJmNC1lOGI5ZjczNzVkNDEiLCJpYXQiOjE3MDAwMDAwMDB9.1o7sdTB3T3GKmQB0bwIDl9aO7HUwd09xipkAdG8CA5c' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "curl -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MmFiMDY0My0zYzk5LTQxZWQtYmYwZC0xMzM4YzMzOTYyN2MiLCJpYXQiOjE3MDAwMDAwMDB9.kvMzuzezTMmS8qX5j6HV-5LzM7s3s0zJkvKl-Y-h1fs' https://api.internal/v2/datasets",
+    "expected_detector": "jwt",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgresql://asaran:NbMTH8eTCixGKt@skinner.info:5432/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=mysql://benjaminharding:LBlkNgy3nYfXq6@fowler.com:5432/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgresql://vasquezjennifer:fETuBd5Lqu0IQo@murphy.com:3306/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgresql://bdivan:8$wsSPUcJiM1lm@kaul.org:5432/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgres://bmoss:2PkO$A6n4ZQwZC@bumb.com:27017/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgres://tkashyap:f9awfGqyfa#KRy@parker.com:5432/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgresql://dhanushsekhon:rcnEun!lDFu1iW@rau-sahni.com:3306/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgresql://emirbaral:ysOaxUyJXu11Zn@rege.org:5432/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=mysql://kalemanikya:Lmq91MPqmdjXzm@york-murray.com:27017/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "# Database\nDATABASE_URL=postgres://bandinehmat:hLA#JymdFqVim4@deshpande-mannan.biz:5432/prod_vault\nDB_POOL_SIZE=10\nDB_IDLE_TIMEOUT=300\n",
+    "expected_detector": "db_connection_string",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIBq7synthetic0000keyOnlyForDemoNotRealNotRealDoNotUse\n-----END EC PRIVATE KEY-----\n",
+    "expected_detector": "private_key",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nAPI_SECRET = SHQHqvWfj4uGMuxoLlNvHCV87bELBPpI\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nAuth_Token = cfmTKT5_QTGNtDsjooTbP_S7IEg3-Mgo\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nAuth_Token = XrNfsFYzED7St_jWWBfTKA2vMJdxbVMfEWB4DSad73ON\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nApi_Key = CeX3X9OlJP9lvycmpIHGT8JgHUb8xpnt36k\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nApi_Key = zqTj1l3JKlB-PJZ0Cy4XRpjEIoxXjH_SUutomr5kuj6V\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nApi_Key = fonZ5fEQrjIWGgDnlyyG9ZxgdsMC_tRwm_-86cH73RiUp9k\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nApi_Key = TSHUeHxrinGm9G5p6Th3hqDf7PhpZrADbdg\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nAPI_SECRET = b2zkR5hpZtQxEOvQKPO31oHa27sQRXLVePagAGdqOtOGEjxo\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nApi_Key = LH4Kr12_4aGsNma9bg4j870S5k8pU15WPrDu\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nAPI_SECRET = hn2X_3sRtnXRJ5s0anuUcYjkEo7Y-0wy\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nCLIENT_SECRET = Fe2ZiD-xMIkbPkirNqLuhj1bho6fO-yEl4\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "[config]\nApi_Key = vB2OoKCFz8x2dup8bwO4GifegW2atYNp5ph6Gxqqoy\nregion = ap-south-1\n",
+    "expected_detector": "generic_high_entropy_secret",
+    "is_positive": true
+  },
+  {
+    "text": "git log: commit a42460856fe98d28e53c4f6b7ba7e15cf0ef6cec Author: Zara Sane Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit cc3d1f57e305568e458739abda45985e06396522 Author: Hrishita Maharaj Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit af8197862a2a8150d949ebaf1faa81949f03307b Author: Ranbir Lal Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 4803fb6ce9a02c431d0a165d9c17a820b3eb2b60 Author: Thomas Bruce Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 380c3a88b379a872a2a62681361934a805dc5492 Author: Jacob Saunders Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 10c80094674d81600a106dd70c8ab789395c0bd5 Author: Larry Davis Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit cd8dcbbdddc8c985e9180dae66a0afbdb7a66144 Author: Zaina Kamdar Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 2e749ab0e630c432c2439a6b06aa89399f400310 Author: Christopher Crawford Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit c0f885a1d22218691c2d8116852d8b87bc22ff99 Author: Devansh Kala Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 207a2de0df64151bffb1bc96d1f6b1a7c1355cf1 Author: Ira Reddy Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 8423bbf80c361f31a49fe63f1494df6639e47a31 Author: Madhup Wali Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 248abd858fde85801f8420f386015dcbbef3c7ad Author: Damini Chander Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 1725d6dd1a816250df3758a83947cfa2bbe76a8e Author: Tyler Mills Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 19da82f91849ddda2f132f112ecc98755a560f8b Author: Tim Morris Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 88cb4e662921155cf43375d458232578e64ef619 Author: Tejas Thaker Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 3dad400297528cc078f6774771a625a773df739f Author: Isaac Vargas Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit a1088f5a5fe977c7611558fd442e48c5b666c3a6 Author: Heer Arya Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit e6632b3a68bdbcd4ecee8aa0a4e51b93d2fb0dfb Author: Prisha Lalla Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 0d0f342493320f0cef0624a05c9ce61231509490 Author: Rebecca Smith Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "git log: commit 26c2186bac2af1abca5fecd69ce4e0d38900fe3e Author: Saira Kari Date: Mon Oct 14 09:12:33 2026 +0530",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "git_sha_commit"
+  },
+  {
+    "text": "Artifact checksum verified sha256:1f34ee3db11803a33a0cff600182f6508231b89a37367cff3337c9b0021186b8 for release package vaultsight-v8.16.53-rc.3.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:21efdb51cf87c9d3e1124aa4b8f43989261cbd82f291028e1f0270a5809abaa3 for release package vaultsight-v1.2.0-rc.2.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:bc7c77372aaf193f158406704e1fa96d94b76987524f46604ecf364235fcee4d for release package vaultsight-v6.1.63-rc.8.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:a5723f689a2b6484efef9f560b1b36dbf331cd688f29a6d6bc913a2b7b11d4c5 for release package vaultsight-v6.14.2-rc.3.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:5d587561e76463e7e16b18a17f01796f233eb382a371e2e68ea3c6755ffc2c44 for release package vaultsight-v3.22.32-rc.6.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:ee5eaab8dec5837f5122996c5f2b60193ead147cb26d321c71d6450e9f5c207f for release package vaultsight-v2.1.35-rc.1.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:00030383ed29fa55ef386140fbd65eb37ffbe2911cae7ed9e34ba138d945cbf7 for release package vaultsight-v5.19.48-rc.10.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:6a7c3f8377d1ff99436a09cf281eebdb82fbda0808bb0c16b7d2b595a28f0cab for release package vaultsight-v5.1.9-rc.8.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:12900c866133a2dc6329b6416ae9d717d5e348f2d8ce685a1925b59f757f0291 for release package vaultsight-v2.17.33-rc.6.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:f24b45f0aad55efb9d5b45006997c33dcb54605b7b106063e2cacd94ca801f11 for release package vaultsight-v2.10.11-rc.9.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:d083750fe6574f7f132b1a8d528c7e6da9364adb7a5903060b9da2c94d81a71a for release package vaultsight-v2.0.36-rc.3.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:d6310fdba4575ecf4eec2325f6ced140bca41aeea6110b0dbee0390276944637 for release package vaultsight-v6.9.16-rc.9.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:3234ee7c181eaacf4e7ab778e74206dd2dead029b8308fe628a52b7dc8352bc2 for release package vaultsight-v7.20.38-rc.1.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:b04dead4af3a33e73af2a0374cc2e49620dcd98964e682ba82a461f4aeb45fe6 for release package vaultsight-v9.13.81-rc.6.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:65ac39530e42a199f37eeba6cd9a495b86a2d20f687589a8849e258c6404bea6 for release package vaultsight-v5.6.17-rc.10.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:51f72d693e42858aa15f05699dd2c71f41527512dd71eeddf0bc7c68742f38b9 for release package vaultsight-v6.1.96-rc.1.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:a02db30a6aeac0ce6b312fb5e871573497d3397cdaed06e50e01b4ff6d19ec60 for release package vaultsight-v7.20.22-rc.1.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:be1c5a7b2b464ddf1e12b04275c2b5e2e0b571814e8b8a8eee4fc865b8d9decc for release package vaultsight-v7.16.41-rc.7.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:9c4fc1730bf9e3c6678b2d3595cb978939f92c56f4284a7e7a2910bf251870d4 for release package vaultsight-v6.0.58-rc.5.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Artifact checksum verified sha256:4112f4f1b8420144a9c8d728b6f547f585f7b06a86810bcb1986970e8240f6aa for release package vaultsight-v7.21.24-rc.2.tar.gz",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "sha256_artifact_hash"
+  },
+  {
+    "text": "Request trace_id=fe45277f-70e5-48c9-aeb5-f005837a9fcd correlation_id=836f3f74-baa7-42a6-9ccd-c246a92d8598 completed in 195ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=a4d1d3d9-7de0-4cf3-a22b-da916ac4a239 correlation_id=b11befea-9fe7-4244-a870-5e4779d8e285 completed in 45ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=24a66147-4e3e-4093-8d88-2538a0081992 correlation_id=0f5fb559-683e-4840-99a1-f076a23041b3 completed in 67ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=f0e374cc-74fc-49b0-ac28-33eea0aa03da correlation_id=1441a506-f692-41e9-921e-1181c3870a0b completed in 289ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=b5c70110-1eca-42be-8870-541d8c07a73d correlation_id=30406d80-c70a-451e-849f-2ab4d749b79a completed in 193ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=95ff03fe-0396-4388-8f18-43581eee65b0 correlation_id=286c3af5-68e1-406d-9dda-46d008fb4e88 completed in 127ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=789657ea-d0ec-4214-a312-4a63c5b9007c correlation_id=ce70c12e-ef21-4d3e-b993-cfd5f198118e completed in 31ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=c3e61b93-9e12-4338-9b94-be94593f214a correlation_id=3f5e2476-7027-45df-958a-0e29f71c5b0d completed in 3ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=b9254de9-33f8-4e56-b36e-3241bb8b28b6 correlation_id=b2ae0a60-ab2e-4aa7-9b8b-babd4fdcf711 completed in 32ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=382e32cc-a71c-4f79-849d-bf6ad2234570 correlation_id=55211ffb-5c6d-4836-82ee-0b82cae4a570 completed in 68ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=5bd6c05a-ead8-42f9-84a1-ebe703169a29 correlation_id=80b0ac4c-3ea2-4251-8f4a-f7936cf18d1c completed in 82ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=ec7e5f30-50e4-4cd7-baf5-c224dac6eba2 correlation_id=94c45e31-69ce-4638-8da6-39af79faf525 completed in 285ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=f9471780-acbf-484f-b392-2fc044d63621 correlation_id=c4a67962-72c2-4aa2-b66b-616179d9ae07 completed in 283ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=50f82c5d-5937-4257-b918-91f4fac11515 correlation_id=cd6c36e3-7bc5-493a-9749-866a0768a0dd completed in 205ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=a052d08e-722f-418f-90d0-a76a61bff86e correlation_id=571084e3-5553-4477-8267-e6bf1485bb1b completed in 65ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=3b56df11-8620-4442-bb00-802ff190f078 correlation_id=4eb3bc73-db03-4430-bc2b-2cf380d2e3f1 completed in 136ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=6567cb6d-d408-4479-8740-32e69943c148 correlation_id=bc44b44f-f993-46c9-b511-38cd8a331356 completed in 116ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=5cbee766-7c17-4b5b-8004-df01f7f05376 correlation_id=be1ff815-f74c-4103-954b-13d777d71b0f completed in 223ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=8563a387-a753-49ae-bc54-665f79fb59e1 correlation_id=b0d8c9d8-93ec-4dd9-8de8-eee4ce23892f completed in 150ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Request trace_id=bdb54f27-5104-49bd-acf2-77876621bdc7 correlation_id=dc9da291-91c3-44db-ba30-88e0f6c7e540 completed in 79ms",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "uuids"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v2.10.65-rc.4 to v3.6.52-rc.1 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v7.23.61-rc.5 to v9.5.4-rc.10 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v7.15.89-rc.2 to v5.18.59-rc.6 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v5.0.81-rc.1 to v4.19.56-rc.1 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v1.21.28-rc.7 to v9.2.6-rc.3 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v6.1.96-rc.8 to v3.24.84-rc.5 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v5.15.54-rc.4 to v8.1.72-rc.6 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v2.16.47-rc.5 to v5.23.5-rc.6 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v2.4.63-rc.2 to v1.11.90-rc.2 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v5.2.87-rc.4 to v6.2.34-rc.8 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v2.8.37-rc.3 to v7.18.70-rc.6 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v9.10.45-rc.7 to v1.3.47-rc.6 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v8.15.42-rc.8 to v9.21.21-rc.2 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v7.24.80-rc.3 to v8.2.44-rc.7 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Dependency update: upgrading vaultsight-core from v4.17.14-rc.8 to v5.21.12-rc.7 \u2014 see changelog at https://github.com/org/repo",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "semver_strings"
+  },
+  {
+    "text": "Order INV-2027-408534 dispatched via BlueDart tracking number TRK997375609335.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2025-799421 dispatched via BlueDart tracking number TRK578752562909.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-590081 dispatched via FedEx tracking number TRK573237006765.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-342516 dispatched via FedEx tracking number TRK180158605185.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2025-753421 dispatched via DTDC tracking number TRK277944684838.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-218579 dispatched via BlueDart tracking number TRK201703945658.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2026-420639 dispatched via DTDC tracking number TRK575208169394.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-946030 dispatched via FedEx tracking number TRK657145503620.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-615347 dispatched via DTDC tracking number TRK562768469262.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-955499 dispatched via DTDC tracking number TRK328859192086.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-127561 dispatched via BlueDart tracking number TRK521177335400.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2026-408650 dispatched via FedEx tracking number TRK695597268469.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2026-460616 dispatched via FedEx tracking number TRK468230633506.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2026-415882 dispatched via DTDC tracking number TRK559402031142.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2025-449196 dispatched via DTDC tracking number TRK665188337687.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2026-869883 dispatched via DTDC tracking number TRK517217796925.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-751393 dispatched via DTDC tracking number TRK486493624927.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-348696 dispatched via DTDC tracking number TRK944158883035.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2025-557988 dispatched via FedEx tracking number TRK372673804553.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Order INV-2027-213797 dispatched via DTDC tracking number TRK386813687414.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invoice_order_ids"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:1ea82d15e5c5b7b552fca3598afc1e8ea76b8d21b1d1cb025eed13633d55b460 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:8f216a263c51da44333f47cdb5b8399756536235985899053c9890923f13f52c Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:aec3d0bb732febf5544aab50df630e71aae314f2fa9907fbca359c90c8575b89 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:88955cccfef7037bd7f86251dcebd5a61de5e89302115aea4629b7c0d88f32dc Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:28c6f16e46caf97514250014d46cc002f936bf04f9e6b169533038731331e822 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:0a5a20b9740f72757e3e9173e67ec8cd5359109196fa194119f1d81b01a102d7 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:2d2dfcb968f7eb416f604ed85a2616d995cf388d63a768e597e94305ab1d2f12 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:f6d9af00883c5a35da2c16519221fb49a2a2b5580bb837d169e1b3d258bed798 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:dfe07215cd6878e3fa8d113c08ac3e93981780c83ef3e516be594330f9e84fde Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:0434060aa2b46110c98065abdb272c1312569d179a6db5857ab67660d2ebee21 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:6e80aaf762207fe9fef4d6a593252f609ee9db88f9916bc13fb180d34afab5a4 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:6e969801f3b82df12cbb0dcc3baa03e0ed927d7d27797cd31b35f360fb5b211e Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:438a3eb073a30af0ff1bf0db4d82f35b7a653ab690aaab71a0041f5a457c6ea0 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:d04291ba7113ff9c83f2d7446fd701d0c1e8fadcbf0a4b55eefe2448411705de Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "Pulling image docker.io/vaultsight/scanner@sha256:1979dbc2dcfcc4e7ec7c9a9a62a084ead5a0040288efbddb1a8e6ab906e0e1e9 Status: Image is up to date",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "docker_image_digests"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "In the AWS docs tutorial: export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "documentation_example"
+  },
+  {
+    "text": "Transaction declined for card ending 3799 029617 59470 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3706 741413 91390 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3710 304507 53070 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3722 915452 10560 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3719 763497 83480 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3759 588194 64400 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3749 399514 29520 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3751 763261 61440 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3798 445772 42090 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3788 235791 00270 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3790 131760 22330 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3782 707417 91240 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3715 812660 39440 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3768 228303 32090 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Transaction declined for card ending 3794 762323 26800 - invalid card format.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "luhn_invalid_card"
+  },
+  {
+    "text": "Barcode scan reference: 773812357892 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 686671372293 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 865761518589 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 618025402046 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 824482223378 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 541678873630 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 380878658518 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 792748883798 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 597218820307 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 372666630922 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 400755014504 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 836319723191 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 632720860378 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 601053790094 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 285726397288 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 915471214089 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 284651656610 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 775023619673 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 300534387208 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Barcode scan reference: 437543441074 \u2014 retry required.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "invalid_aadhaar_verhoeff"
+  },
+  {
+    "text": "Log metadata: request_id=YaMLde8G1QVux2za1W82BZuskILzCUDB1dkiecxZ status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: transaction_ref=wjjEg7zQ29Otfdbha2TvYWH6Xqhxo35q0qjeCsRv status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: trace_id=qMJ0sa9EmwUaZBTeWj6jE9sz7yQ9b1R9zCAelVex status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: transaction_ref=ctZSclDhrCy09yfqXQT8VX8hFyI9HgYTV4GHHReO status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: transaction_ref=EGqYcgjA7yYG49dfEwwyiWMlncSlT4CrDemeqzNw status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: correlation_id=qikBFR8JbgYNefYV3toRoM80XSuTIvJldm6Tx5Dc status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: request_id=1o6UxOi7EEE6Q9QDjgZ3jSko2kUVpW1Q0YjwH4sw status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: trace_id=9nVKBw2ZbdpE2CcBRVisflcsY3ImU6n4AEm39zXs status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: correlation_id=b6brkAh1Hsy79P0tIPVzRdrXuQYo7zaOKC7dpK7n status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: transaction_ref=IiFWfxsNkypEy9oQfhHERRsmdVErv1llBq0lAC03 status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: trace_id=mKbxZNqH2GuBD9Pl7HgkR5WkzikUzX8lbTowW8Tb status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: request_id=8QTU1xXEs9VES9aOhw3UB85VaoFwr7dO76pJr9tT status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: request_id=I6Xz4yvri5R7Gb120EkxXPflk8Ey7e9D0pA8D5Or status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: correlation_id=l7oVQp2POvp8jkWTZxIyysDmTcNr4V6Z2eDwMvWJ status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: request_id=rCmdOpXd8GpFudzEiU9uXwjRTjgQKExnxsNbPmMv status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: trace_id=rVmZj17qo05qZKP7wZij8LJyhvH60dyqVSDTXJUr status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: request_id=DlmmzLeyIpAbe0hltQSvXYep4rMxu9D1uIzUVMFm status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: trace_id=dU2jDOB4itBSpPlBEHjXg9c2yGMv9LPrvYlY7Elq status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: transaction_ref=y2HQjb12E4zoBDOykG0YiXFj519DLtECMpVqBAl8 status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Log metadata: transaction_ref=fiB6akb2kBTFuaN95bX7txOu8JIjdc6sWRoxWEGi status=200",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "high_entropy_no_keyword"
+  },
+  {
+    "text": "Call US support at +1-800-555-7667 or UK helpdesk +44-20-2714-6657.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-1848 or UK helpdesk +44-20-8442-8363.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-3065 or UK helpdesk +44-20-3132-3782.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-3795 or UK helpdesk +44-20-5899-9517.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-6009 or UK helpdesk +44-20-6085-2247.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-4854 or UK helpdesk +44-20-8826-2990.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-2738 or UK helpdesk +44-20-2695-9699.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-8266 or UK helpdesk +44-20-8547-3159.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-1737 or UK helpdesk +44-20-7214-4815.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-4682 or UK helpdesk +44-20-3943-8020.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-8205 or UK helpdesk +44-20-6029-8634.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-4806 or UK helpdesk +44-20-3501-1653.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-1182 or UK helpdesk +44-20-4395-7297.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-3682 or UK helpdesk +44-20-1147-4176.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Call US support at +1-800-555-3764 or UK helpdesk +44-20-8434-1493.",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "us_uk_phone_numbers"
+  },
+  {
+    "text": "Connection established from 10.75.253.249 to internal gateway 192.168.1.1 port 12667",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.192.199.18 to internal gateway 192.168.1.1 port 40910",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.9.224.97 to internal gateway 192.168.1.1 port 22670",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.101.39.185 to internal gateway 192.168.1.1 port 23859",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.252.56.122 to internal gateway 192.168.1.1 port 12720",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.240.92.185 to internal gateway 192.168.1.1 port 16769",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.109.40.254 to internal gateway 192.168.1.1 port 30686",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.212.58.147 to internal gateway 192.168.1.1 port 4371",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.239.243.192 to internal gateway 192.168.1.1 port 65094",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.4.255.212 to internal gateway 192.168.1.1 port 61455",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.89.87.247 to internal gateway 192.168.1.1 port 25191",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.112.147.9 to internal gateway 192.168.1.1 port 62282",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.223.58.104 to internal gateway 192.168.1.1 port 31015",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.76.180.90 to internal gateway 192.168.1.1 port 52144",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "Connection established from 10.132.237.238 to internal gateway 192.168.1.1 port 18230",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "ip_addresses"
+  },
+  {
+    "text": "DEBUG [db] Request completed id=fdf67844-4b74-49db-b089-c85aa5d43bad duration=239ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [db] Request completed id=9b961e13-9ac0-4162-b778-4e75bd3dc7f6 duration=464ms status=404 Not Found",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [auth] Request completed id=6d993688-187e-4f85-ac2c-546b455e41a4 duration=194ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [db] Request completed id=d72d98dd-92c1-4a2c-a240-ac06c374ce34 duration=363ms status=404 Not Found",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [cache] Request completed id=b4e8b880-c9f4-444e-8935-89a373922567 duration=247ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [db] Request completed id=56436d2a-e8c3-4334-b8e9-707ba2aa7dde duration=447ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [cache] Request completed id=00676686-1f8d-474b-9dd7-e0a476a33217 duration=267ms status=404 Not Found",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [http] Request completed id=fb1a3253-54c3-4c47-902f-a4d5ede92d64 duration=398ms status=404 Not Found",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [auth] Request completed id=29076dbe-53af-449c-ac23-3947429c6554 duration=313ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [cache] Request completed id=2cb3437d-ccf2-4afd-a8af-7bd54b2f3e99 duration=408ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [cache] Request completed id=1d4abf49-af13-4de3-87f8-8cc5162fc386 duration=299ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [http] Request completed id=91a4ca78-bcb5-484d-8228-0eea82f21c73 duration=466ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [auth] Request completed id=1f074421-4f4b-4522-9cd2-952020e0e2c2 duration=363ms status=404 Not Found",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [http] Request completed id=7d323873-da1c-4962-80d8-f3f095f0e839 duration=18ms status=404 Not Found",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [http] Request completed id=2a453d9c-24a0-4782-8305-95b1070b00f6 duration=341ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [http] Request completed id=eeb06d38-77dc-4293-8d4c-6b9258c18ad4 duration=494ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [http] Request completed id=8c7b8324-7fa7-4c3b-b9fe-a7f2085bbccd duration=103ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [auth] Request completed id=c2872677-202f-4965-ac7a-74c690a567ae duration=418ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [cache] Request completed id=eeec0077-9d65-4143-9570-4299f7bf6427 duration=85ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  },
+  {
+    "text": "DEBUG [http] Request completed id=f777c116-555a-4734-8acf-683d29ec1267 duration=364ms status=200 OK",
+    "expected_detector": null,
+    "is_positive": false,
+    "negative_type": "standard_log_lines"
+  }
+]

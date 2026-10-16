@@ -1,9 +1,11 @@
-"""Generate labeled synthetic evaluation corpus for VaultSight detectors.
+"""Generate labeled synthetic evaluation corpus (Development Set - Tuned-On) for VaultSight detectors.
 
 Creates:
 - Positives for each detector
 - Hard negatives (Verhoeff checksum failures, UUIDs, order numbers, random base64 strings, lorem text)
-All with a fixed random seed for reproducibility.
+All with a fixed random seed (42).
+
+NOTE: This is the development set against which detector rules were initially developed and tuned.
 """
 
 import json
