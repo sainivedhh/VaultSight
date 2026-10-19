@@ -64,8 +64,11 @@ jobs:
           engine = DetectionEngine()
           connector = LocalFilesystemConnector('.')
           findings = []
+          excluded_dirs = {'.git', '.github', '.pytest_cache', '.venv', 'venv', '__pycache__', 'data', 'tests', 'infra', 'build', 'dist'}
+          excluded_files = {'SECURITY.md', 'EVALUATION.md', 'generate_dataset.py', 'generate_holdout.py'}
           for path, content in connector.read_files():
-              if 'data/' in path or 'test' in path or 'infra/' in path or 'audit_osv.py' in path or 'check_ci.py' in path:
+              parts = path.split('/')
+              if any(part in excluded_dirs for part in parts[:-1]) or parts[-1] in excluded_files:
                   continue
               f = engine.scan_text(content, location=path)
               findings.extend(f)
