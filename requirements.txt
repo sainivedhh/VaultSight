@@ -1,7 +1,7 @@
 # Core Framework & Data Validation
-fastapi==0.110.0
+fastapi==0.141.1
 uvicorn==0.28.0
-pydantic==2.6.4
+pydantic==2.13.4
 pydantic-settings==2.2.1
 
 # Database & ORM
@@ -9,7 +9,8 @@ SQLAlchemy==2.0.28
 aiosqlite==0.20.0
 
 # Security & Crypto
-python-jose[cryptography]==3.3.0
+PyJWT==2.15.1
+starlette==1.4.0
 passlib[bcrypt]==1.7.4
 bcrypt==4.1.2
 pyyaml==6.0.1
