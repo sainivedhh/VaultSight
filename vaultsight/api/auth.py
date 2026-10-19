@@ -3,7 +3,8 @@
 from datetime import datetime, timedelta
 from typing import Optional
 from passlib.context import CryptContext
-from jose import JWTError, jwt
+import jwt
+from jwt import InvalidTokenError
 from pydantic import BaseModel
 
 SECRET_KEY = "vaultsight-in-memory-dev-secret-key-change-in-prod"
@@ -47,5 +48,5 @@ def decode_access_token(token: str) -> Optional[TokenData]:
         if user_id is None:
             return None
         return TokenData(user_id=user_id, username=username, role=role)
-    except JWTError:
+    except InvalidTokenError:
         return None
