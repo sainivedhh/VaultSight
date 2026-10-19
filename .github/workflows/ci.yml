@@ -94,12 +94,8 @@ jobs:
 
       - name: Dependency Vulnerability Audit
         run: |
-          # GHSA-3qf3-8w2g-rqmx, GHSA-6c5p-j8vq-pqhj, GHSA-cjwg-qfpm-7377: python-jose known upstream issues (mitigated via strict HS256 enforcement in auth.py)
           # GHSA-6w46-j5rx-g56g: pytest tmpdir handling on shared multi-user systems (test-only dependency)
           pip-audit -r requirements.txt \
-            --ignore-vuln GHSA-3qf3-8w2g-rqmx \
-            --ignore-vuln GHSA-6c5p-j8vq-pqhj \
-            --ignore-vuln GHSA-cjwg-qfpm-7377 \
             --ignore-vuln GHSA-6w46-j5rx-g56g
 
   container-security:
