@@ -6,7 +6,7 @@ pydantic-settings==2.2.1
 
 # Database & ORM
 SQLAlchemy==2.0.28
-aiosqlite==0.20.0
+aiosqlite==0.22.1
 
 # Security & Crypto
 PyJWT==2.15.1
