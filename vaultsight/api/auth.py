@@ -2,9 +2,9 @@
 
 from datetime import datetime, timedelta
 from typing import Optional
-from passlib.context import CryptContext
 import jwt
 from jwt import InvalidTokenError
+from passlib.context import CryptContext
 from pydantic import BaseModel
 
 SECRET_KEY = "vaultsight-in-memory-dev-secret-key-change-in-prod"
