@@ -13,7 +13,7 @@ PyJWT==2.15.1
 starlette==1.4.0
 passlib[bcrypt]==1.7.4
 bcrypt==4.1.2
-pyyaml==6.0.1
+pyyaml==6.0.3
 
 # AWS Simulation
 boto3==1.34.69
